@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_7.5dp">7.5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="card_corner_radius">15dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="screen_ruler_card_height">92dp</dimen>
+    <dimen name="margin_94dp">94dp</dimen>
+    <dimen name="ar_measure_card_height">199dp</dimen>
+    <dimen name="card_row_height">199dp</dimen>
+</resources>

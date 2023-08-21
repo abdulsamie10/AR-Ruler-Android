@@ -1,0 +1,86 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".SplashActivity"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:theme="@style/Base.Theme.ARRulerAbdulSamie">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="352dp"
+        android:layout_height="22dp"
+        android:indeterminate="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dots_indicator"
+        app:layout_constraintVertical_bias="0.909"
+        app:layout_constraintWidth_percent="0.9" />
+
+
+    <LinearLayout
+            android:id="@+id/onboardLayout"
+            android:layout_width="393dp"
+            android:layout_height="447dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.8">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="467dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotsColor="@color/splashScreenGrayClr"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="8dp"
+            app:dotsSpacing="4dp"
+            app:dotsWidthFactor="2.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:selectedDotColor="@color/dotClr"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/onboardLayout"
+            app:layout_constraintWidth_percent="0.9"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/continueButton"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="@drawable/no_button"
+            android:gravity="center"
+            android:paddingStart="120dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="120dp"
+            android:paddingBottom="5dp"
+            android:text="Next"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.965"
+            app:layout_constraintWidth_percent="0.8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

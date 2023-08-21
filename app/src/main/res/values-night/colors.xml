@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="capsule">#0073FF</color>
+    <color name="titleClr">#FFFFFF</color>
+    <color name="splashScreenGrayClr">#999999</color>
+    <color name="splashScreenBlueClr">#E5EBEC</color>
+    <color name="darkmode">#11171C</color>
+    <color name="lightmode">#FFFFFF</color>
+    <color name="ThemeGradientStart">#FFFFFF</color>
+    <color name="ThemeGradientEnd">#00DEFF</color>
+    <color name="exitbuttonClr">#3A3F43</color>
+    <color name="windowsBackground">#11171C</color>
+    <color name="btn_title_settings_color">#FFFFFF</color>
+    <color name="marks_color">#878686</color>
+    <color name="arrow_settings_color">#FFFFFF</color>
+    <color name="gray_color">#707070</color>
+    <color name="separatorColor">#444444</color>
+</resources>

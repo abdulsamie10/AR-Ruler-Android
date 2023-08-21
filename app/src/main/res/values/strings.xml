@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AR-Ruler-AbdulSamie</string>
+    <string name="descriptonFeatureSS">Click the extremes you want to measure</string>
+    <string name="titleFeatureSS">AR Ruler</string>
+    <string name="firsttextdescription">Start Measuring by using your mobile\ncamera by AR Technology</string>
+    <string name="FirstTextPop">Let\'s Get\nStarted</string>
+    <string name="ar_ruler_title">AR Ruler</string>
+    <string name="ar_ruler_description">Click the extremes you want to measure.</string>
+    <string name="camera_measure_title">Camera Measure</string>
+    <string name="camera_measure_description">Measure by accelerate recognition process.</string>
+    <string name="screen_ruler_title">Screen Ruler</string>
+    <string name="screen_ruler_description">Measure by using user screens as a ruler</string>
+    <string name="bubble_level_title">Bubble level</string>
+    <string name="bubble_level_description">Measure  and balance by bubble leveler.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- For Card Texts -->
+    <string name="card_help_first_text">Horizontal or vertical Aim camera on texture surface.</string>
+    <string name="card_help_second_text">Try to maintain (0.5m - 3m) of distance.</string>
+    <string name="card_help_third_text">move camera close to the particular surface.</string>
+    <string name="card_help_fourth_text">Try to change the viewing angle.</string>
+    <string name="sensor_value">X: %1$s  Y: %2$s</string>
+    <string name="settings_back_arrow">Settings Back Arrow</string>
+    <string name="settings">Settings</string>
+    <string name="app_language">App Language</string>
+    <string name="system_default">System Default</string>
+    <string name="general_text">General</string>
+    <string name="app_theme_text">App Theme</string>
+    <string name="system_default_theme">System Default</string>
+    <string name="sound_text">Sound</string>
+</resources>

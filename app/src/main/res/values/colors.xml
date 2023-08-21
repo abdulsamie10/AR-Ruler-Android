@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="capsule">#0073FF</color>
+    <color name="splashScreenGrayClr">#999999</color>
+    <color name="splashScreenBlueClr">#129BAF</color>
+    <color name="darkmode">#11171C</color>
+    <color name="lightmode">#FFFFFF</color>
+    <color name="titleClr">#FF000000</color>
+    <color name="dotClr">#129BAF</color>
+    <color name="ThemeGradientStart">#6573ED</color>
+    <color name="ThemeGradientEnd">#16B9D1</color>
+    <color name="exitbuttonClr">#DCDCDC</color>
+    <color name="exitbuttontextclr">#17BBD5</color>
+    <color name="windowsBackground">#FFFFFF</color>
+    <color name="btn_title_settings_color">#333333</color>
+    <color name="selected_color">#17BBD5</color>
+    <color name="default_color">#979191</color>
+    <color name="fading_color">#666666</color>
+    <color name="card_color">#4F000000</color>
+    <color name="rectangle_color">#17BBD5</color>
+    <color name="marks_color">#878686</color>
+    <color name="size_color">#17BBD5</color>
+    <color name="size_mask_color">#FFFFFF</color>
+    <color name="inch_cm_btn_clr_screen_measure">
+        #DDDDDD
+    </color>
+    <color name="arrow_settings_color">#000000</color>
+    <color name="gray_color">#77000000</color>
+    <color name="settings_buttons_bg_color">#2C000000</color>
+    <color name="separatorColor">#72000000</color>
+    <color name="lightBlue">#BA353535</color>
+</resources>

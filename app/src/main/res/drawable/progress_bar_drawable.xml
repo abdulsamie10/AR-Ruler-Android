@@ -1,0 +1,17 @@
+<!-- res/drawable/progress_bar_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background track of the progress bar -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- The ball drawable that moves within the progress bar -->
+    <item android:id="@android:id/progress">
+        <shape android:shape="oval">
+            <solid android:color="@color/capsule" />
+            <size android:width="16dp" android:height="16dp" />
+        </shape>
+    </item>
+</layer-list>

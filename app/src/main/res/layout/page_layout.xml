@@ -1,0 +1,111 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.Theme.ARRulerAbdulSamie"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/eclipseImage"
+        android:layout_width="433dp"
+        android:layout_height="458dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/eclipse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/StartingText"
+        android:layout_width="196dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:letterSpacing="0.06"
+        android:fontFamily="@font/poppinsbold"
+        android:lineSpacingExtra="-13sp"
+        android:text="@string/FirstTextPop"
+        android:textSize="40sp"
+        android:textColor="@color/titleClr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/FirstTextDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:text="@string/firsttextdescription"
+        android:textColor="@color/splashScreenBlueClr"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StartingText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pic1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titleFeature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/titleFeatureSS"
+        android:textColor="@color/titleClr"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TextView
+        android:id="@+id/descriptionFeature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppinsregular"
+        android:text="@string/descriptonFeatureSS"
+        android:textColor="@color/splashScreenGrayClr"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleFeature"
+        app:layout_constraintVertical_bias="0.183" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

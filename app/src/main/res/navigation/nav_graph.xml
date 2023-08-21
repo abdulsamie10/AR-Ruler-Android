@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ar_ruler_abdulsamie.fragment.HomeFragment"
+        android:label="AR Ruler"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_ARRulerFragment"
+            app:destination="@id/ARRulerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_compassFragment"
+            app:destination="@id/compassFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_screenrulerFragment"
+            app:destination="@id/screenrulerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bubbleLevelerFragment"
+            app:destination="@id/bubbleLevelerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/compassFragment"
+        android:name="com.example.ar_ruler_abdulsamie.fragment.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" >
+        <action
+            android:id="@+id/action_compassFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ARRulerFragment"
+        android:name="com.example.ar_ruler_abdulsamie.fragment.ARRulerFragment"
+        android:label="fragment_a_r_ruler"
+        tools:layout="@layout/fragment_a_r_ruler" >
+        <action
+            android:id="@+id/action_ARRulerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenrulerFragment"
+        android:name="com.example.ar_ruler_abdulsamie.fragment.screenrulerFragment"
+        android:label="fragment_screenruler"
+        tools:layout="@layout/fragment_screenruler" >
+        <action
+            android:id="@+id/action_screenrulerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bubbleLevelerFragment"
+        android:name="com.example.ar_ruler_abdulsamie.fragment.BubbleLevelerFragment"
+        android:label="fragment_bubble_leveler"
+        tools:layout="@layout/fragment_bubble_leveler">
+        <action
+            android:id="@+id/action_bubbleLevelerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.ar_ruler_abdulsamie.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

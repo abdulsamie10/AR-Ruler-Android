@@ -1,0 +1,297 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/windowsBackground"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:orientation="vertical">
+
+                <!-- Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textViewTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="AR Ruler"
+                        android:textColor="@color/btn_title_settings_color"
+                        android:textSize="@dimen/_16sdp" />
+
+                    <ImageView
+                        android:id="@+id/settingBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/setting"
+                        app:tint="@color/btn_title_settings_color" />
+
+                </LinearLayout>
+
+                <!-- First Row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_18sdp"
+                    android:orientation="horizontal">
+
+                    <!-- First Card View -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ar_measure_card"
+                        android:layout_width="@dimen/_108sdp"
+                        android:layout_height="@dimen/_165sdp"
+                        android:layout_marginRight="@dimen/margin_7.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/first_card_gradient"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginLeft="@dimen/_11sdp"
+                            android:layout_marginTop="@dimen/_11sdp"
+                            android:src="@drawable/card1aricon" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_90sdp"
+                            android:layout_height="@dimen/_95sdp"
+                            android:layout_gravity="end"
+                            android:layout_marginRight="@dimen/_minus1sdp"
+                            android:src="@drawable/card1ariconopacity" />
+
+                        <TextView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_23sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:layout_marginTop="@dimen/_70sdp"
+                            android:fontFamily="@font/poppinsbold"
+                            android:text="AR Measure"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <TextView
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="@dimen/_60sdp"
+                            android:layout_marginLeft="@dimen/_8sdp"
+                            android:layout_marginTop="@dimen/_95sdp"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="Accurate measurements with your digital measuring tool."
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Vertical Linear Layout -->
+                    <LinearLayout
+                        android:layout_width="@dimen/_108sdp"
+                        android:layout_height="@dimen/_165sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- 2nd Card View -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/screen_ruler_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_15sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/_45sdp"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_marginLeft="@dimen/_8sdp"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:src="@drawable/card2_screen_ruler_icon" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_55sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="end"
+                                android:layout_marginTop="@dimen/_minus3sdp"
+                                android:src="@drawable/card2_screen_ruler_opacity" />
+
+                            <TextView
+                                android:layout_width="@dimen/_90sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_55sdp"
+                                android:fontFamily="@font/poppinsbold"
+                                android:text="Screen Ruler"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12sdp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- 3rd Card View -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/bubble_level_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_76sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="@dimen/_15sdp">
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_45sdp"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_marginLeft="@dimen/_8sdp"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:src="@drawable/card3_bubble_level_icon" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_55sdp"
+                                android:layout_height="@dimen/_55sdp"
+                                android:layout_gravity="end"
+                                android:layout_marginTop="@dimen/_minus3sdp"
+                                android:src="@drawable/card3_bubble_level_opacity" />
+
+                            <TextView
+                                android:layout_width="@dimen/_90sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_55sdp"
+                                android:fontFamily="@font/poppinsbold"
+                                android:text="Bubble Level"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12sdp" />
+                            <!-- Add your content inside the second card view -->
+                            <!-- For example, you can add another ImageView, TextView, etc. -->
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- 4th Card View -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/compass_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp"
+                    android:layout_marginTop="@dimen/_13sdp"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_46sdp"
+                        android:layout_height="@dimen/_46sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:src="@drawable/card4_compass_icon" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/card4_compass_opacity" />
+
+                    <TextView
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_59sdp"
+                        android:layout_marginTop="@dimen/_13sdp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="Compass"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:layout_width="@dimen/_180sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_59sdp"
+                        android:layout_marginTop="@dimen/_39sdp"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="Navigation to find direction on the earth."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <!-- Add your content inside the card view -->
+                    <!-- For example, you can add an ImageView, TextView, etc. -->
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- 5th Card View -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ar_ruler_pro_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_84sdp"
+            android:layout_marginTop="@dimen/_11sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/margin_15dp">
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="AR Ruler Pro"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_marginLeft="@dimen/_103sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:src="@drawable/premium_diamond_icon" />
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_68sdp"
+                android:layout_marginLeft="@dimen/_126sdp"
+                android:layout_marginTop="@dimen/_minus7sdp"
+                android:src="@drawable/premium_ar_sign" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_marginLeft="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_46sdp"
+                android:src="@drawable/premium_vip_memeber_board" />
+
+            <!-- Add your content inside the card view -->
+            <!-- For example, you can add an ImageView, TextView, etc. -->
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

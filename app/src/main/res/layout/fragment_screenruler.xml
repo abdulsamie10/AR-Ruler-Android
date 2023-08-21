@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.screenrulerFragment">
+
+        <com.example.ar_ruler_abdulsamie.fragment.OneDimensionRulerView
+            android:id="@+id/oneDimensionRulerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rectangle_color"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="743dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:clickable="false"
+            android:src="@drawable/vertical_scale_screen_ruler"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:src="@drawable/horizontal_scale_screen_ruler"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/oneDimensionRulerView">
+
+                <ImageView
+                    android:id="@+id/homeScreenButton"
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/unselected_screenmeasure_button"
+                    android:src="@drawable/baseline_close_24" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:background="@drawable/linear_rounded_background_screen_measure"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                        <TextView
+                            android:id="@+id/inchButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_23sdp"
+                            android:layout_marginStart="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_weight="1"
+                            android:background="@drawable/selected_screenmeasure_button"
+                            android:gravity="center"
+                            android:text="IN"
+                            android:textColor="@color/black"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/cmButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_23sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_marginEnd="@dimen/_1sdp"
+                            android:layout_weight="1"
+                            android:background="@drawable/unselected_screenmeasure_button"
+                            android:gravity="center"
+                            android:text="CM"
+                            android:textColor="@color/black"
+                            android:visibility="visible" />
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

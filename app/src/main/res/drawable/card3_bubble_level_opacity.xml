@@ -1,0 +1,16 @@
+<vector android:autoMirrored="true" android:height="67dp"
+    android:viewportHeight="67" android:viewportWidth="73"
+    android:width="73dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillAlpha="0.1" android:fillColor="#ffffff"
+        android:pathData="M65.619,32.518C62.557,46.664 48.608,55.649 34.462,52.587C22.413,49.98 13.811,39.327 13.799,27H8.281C8.281,44.521 22.485,58.724 40.006,58.724C57.526,58.724 71.73,44.521 71.73,27H66.212C66.212,28.855 66.013,30.705 65.619,32.518Z" android:strokeAlpha="0.1"/>
+    <path android:fillAlpha="0.1" android:fillColor="#ffffff"
+        android:pathData="M40.006,-4.724C22.485,-4.724 8.281,9.479 8.281,27H13.799C13.799,12.526 25.532,0.793 40.006,0.793C54.479,0.793 66.212,12.527 66.212,27H71.73C71.73,9.479 57.526,-4.724 40.006,-4.724Z" android:strokeAlpha="0.1"/>
+    <path android:fillAlpha="0.1" android:fillColor="#17BBD5"
+        android:pathData="M40.002,27C43.048,27 45.519,24.53 45.519,21.483H34.484C34.485,24.53 36.955,27 40.002,27Z" android:strokeAlpha="0.1"/>
+    <path android:fillAlpha="0.1" android:fillColor="#ffffff"
+        android:pathData="M65.618,21.483H45.521C45.521,24.53 43.051,27 40.004,27H66.211C66.211,25.145 66.011,23.295 65.618,21.483ZM34.487,21.483H14.39C13.996,23.295 13.797,25.145 13.797,27H40.004C36.957,27 34.487,24.53 34.487,21.483Z" android:strokeAlpha="0.1"/>
+    <path android:fillAlpha="0.1" android:fillColor="#ffffff"
+        android:pathData="M55.206,27H13.797C13.797,28.855 13.996,30.705 14.389,32.518H65.618C66.011,30.705 66.21,28.855 66.21,27H55.206Z" android:strokeAlpha="0.1"/>
+    <path android:fillAlpha="0.037" android:fillColor="#247B01"
+        android:pathData="M26.267,32.504V32.518H23.508L23.453,21.496V21.483H26.211L26.267,32.504ZM56.612,32.504V32.518H53.853L53.798,21.496V21.483H56.556L56.612,32.504ZM46.901,21.483C46.901,25.292 43.813,28.379 40.005,28.379C36.196,28.379 33.108,25.292 33.108,21.483H35.867C35.867,23.768 37.72,25.62 40.005,25.62C42.29,25.62 44.143,23.768 44.143,21.483H46.901Z" android:strokeAlpha="0.1"/>
+</vector>
